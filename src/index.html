@@ -1,23 +1,20 @@
 <html>
 <head>
-	<title>Главная страница тестовая проверка</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style/style.css" type="text/css"> 
+	<link rel="stylesheet" href="style/menuBtn.css" type="text/css"> 
+	<script src="scripts/navigation.js"></script>
+	<title>Главная страница</title>
 </head>
-
-<body style="background-image: url(fon.jpg)">
-<button type="MyButton"> <!— вот тут весь пздц —>
-<center><h1>Megaball Champions League</h1></center>
-<a>Статистика</a> <a>Команды</a> <a>Турниры</a> <a>Зал славы</a> <a>Админ панель</a>
-<link rel="stylesheet" href="MyButton.css" type="text/css"> 
-<br/><br/>
-<center>Главный турнир приложения Мегабол. Футбольные войны<center/>
-<br/><br/> 
-<b>Просто пример жирного текста</b>
-<br/><br/>
-Низ страницы
-<br/><br/>
-В данном примере мы рассмотрели кратко основные теги HTML, теперь можно пробовать создавать 
-несколько связанных страниц через ссылки и выкладывать сайт в интернет. 
-<br/><br/>
-Спасибо. До новых встреч!
+<body>
+	<center>
+		<h1>Megaball Champions League</h1>
+		<button onclick="toStats()" class="menuBtn">Статистика</button>
+		<button class="menuBtn"><a href="">Команды</a></button>
+		<button class="menuBtn"><a href="">Турниры</a></button>
+		<button class="menuBtn"><a href="">Зал славы</a></button>
+		<button class="menuBtn"><a href="">Админ панель</a></button>
+		<h1>Главный турнир приложения Мегабол. Футбольные войны</h1>
+	</center>
 </body>
 </html>

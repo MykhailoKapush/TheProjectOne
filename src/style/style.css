@@ -1,0 +1,15 @@
+body{
+  background-image: url(fon.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  align-items: center;
+}
+
+center{
+  background-color: rgb(51, 49, 59);
+  opacity: 0.8;
+}
+
+.noDecoration{
+    text-decoration: none;
+}
