@@ -1,3 +1,3 @@
 function toStats(){
-    window.location.href = "/";
+    window.location.href = "stats.html";
 }
